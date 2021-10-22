@@ -1,0 +1,6 @@
+Alex;Romania;male;Father;Judas_and_The_Black_Messiah;Nomadland
+Mihai;Hungary;female;Mank;The Trial_of_the_Chicago_7;Ma_Rainey's_Black_Bottom
+Jimmy;Germany;other;Ma_Rainey's_Black_Bottom;One _Night_in_Miami;The_United_States_Vs._Billie_Holiday
+Alex;Hungary;male;Father;The Trial_of_the_Chicago_7;Ma_Rainey's_Black_Bottom
+dasdsa;dasdsads;male;Mank;The Trial_of_the_Chicago_7;Nomadland
+Alex;Romania;female;Father;The Trial_of_the_Chicago_7;Nomadland

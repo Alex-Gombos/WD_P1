@@ -1,0 +1,249 @@
+body {margin: 0;}
+h1{
+	text-align:center;
+	font-size: 60px;
+	padding-top:15px;
+	<!-- border-bottom: 5px solid gray; -->
+}
+
+h3{
+	margin-left : 30px;
+	font-size : 50px;
+	color: #dfca4e;
+	text-align : center;
+	font-family: Garamond, Times New Roman,serif;
+}
+
+.text {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text2 {
+	padding: 10px 10px 10px 10px;
+	margin: 50px 100px 1px 100px;
+	text-align:justify;
+	font-size: 25px;
+	font-family:Times New Roman,serif";
+}
+
+.text3 {
+	padding: 8px 8px 8px 8px;
+	text-align:justify;
+	font-size: 18px;
+	font-family:Times New Roman,serif";
+}
+
+.textform{
+	margin-left:20px;
+	margin-right:20px;
+}
+
+.actorname{
+	font-size:20px; 
+	text-align:center;
+	font-family:Helvetica,sans-serif; 
+}
+
+/*navigation bar starts here  */
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1a1717;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #adacac;}
+
+ul.topnav li a.active {background-color: #dfca4e;}
+
+ul.topnav li.right {float: left;}
+
+
+
+/*navigation bar stops here*/
+
+/* dropdown menu starts here */
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  border: none;
+  outline: none;
+  color: white;
+  padding: 10px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #adacac;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #adacac;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  margin-left:25px;
+  margin-top:39px;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 10px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+/* Dropdown menu stops here*/
+
+.boxed{
+	border-radius: 25px;
+	border-top: 10px solid #f2f2f2;
+	border-bottom : 10px solid #f2f2f2;
+	border-left-width : 10px solid #f2f2f2;	
+	border-right : 10px solid #f2f2f2;
+	background-color : #f2f2f2;
+}
+
+.boxed2{
+	border-radius: 25px;
+	border-top: 10px solid #f2f2f2;
+	border-bottom : 10px solid #f2f2f2;
+	border-left-width : 10px solid #f2f2f2;	
+	border-right : 10px solid #f2f2f2;
+	background-color : #f2f2f2;
+}
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+
+@media screen and (max-width: 1200px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+  ul.topnav li a{
+	  font-size:30px;
+	  text-align:left;
+	  }
+  .dropdown-content{
+	margin-top:0;
+	margin-left:0;
+  }
+  .boxed2{
+	  margin-left:-500px;
+  }
+  .actorname2{
+	  margin-left:360px;
+  }
+}
+
+.slideshow-container {
+  max-width: 1300px;
+  position: relative;
+  margin: auto;
+}
+
+/* Spacing out multiple pictures on the same row & pictures overlay starts here */
+
+.column {
+  float: left;
+  width: 20%;
+  padding: 0px;
+  text-align:center
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+
+}
+@media screen and (max-width: 1200px) {
+  .column {
+      display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  }
+}
+
+img{
+	border-radius:25px;
+}
+.container {
+  position: relative;
+}
+
+.overlay {
+border-radius:25px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 85%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #3c3030;
+}
+
+.container:hover .overlay {
+  opacity: 100%;
+}
+
+
+/* Ordering pictures on the same row and overlay stops here  */
+
+.error {color: #FF0000;}
+
+
+
+iframe{
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	width:auto;
+	height:275px;
+}
